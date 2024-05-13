@@ -86,7 +86,7 @@ export default function Home() {
                   </div>
 
                   <p>
-                    <span className='font-semibold'>1.250</span> happy customers
+                    <span className='font-semibold'>1,250</span> happy customers
                   </p>
                 </div>
               </div>
@@ -172,7 +172,7 @@ export default function Home() {
               </div>
               <div className='text-lg leading-8'>
                 <p>
-                  "I usually keep my phone together with my keys in my pocket
+                  "I usually keep my phone with my keys in my pocket
                   and that led to some pretty heavy scratchmarks on all of my
                   last phone cases. This one, besides a barely noticeable
                   scratch on the corner,{' '}
