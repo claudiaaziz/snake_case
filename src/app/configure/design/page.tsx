@@ -1,7 +1,14 @@
-const Page = () => {
-  return (
-    <div>Page</div>
-  )
+interface PageProps {
+  searchParams: {
+    [key: string]: string | string[] | undefined;
+  };
 }
 
-export default Page
+const Page = async ({ searchParams }: PageProps) => {
+  const { id } = searchParams;
+  // make db call
+
+  return <div>{id}</div>;
+};
+
+export default Page;
